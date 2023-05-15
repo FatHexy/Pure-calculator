@@ -6,6 +6,12 @@ function appendValue(value) {
   display.value = expression;
 }
 
+function clearValue() {
+  // slice(-1) menghapus setiap value terakhir yang ada dalam ekspression
+  expression = expression.slice(0, -1);
+  display.value = expression;
+}
+
 function clearDisplay() {
   expression = '';
   display.value = '';
@@ -17,6 +23,6 @@ function calculate() {
     display.value = result;
     expression = '';
   } catch (error) {
-    display.value = 'Gabisa Blok';
+    display.value = 'Gabisa Blok🥸';
   }
 }
