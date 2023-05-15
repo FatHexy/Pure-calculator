@@ -1,0 +1,138 @@
+@media (min-width: 1100px){
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    #title{
+        display: flex;
+        justify-content: center;
+    }
+    #title h1{
+        font-size: 50px;
+    }
+    #one{
+        display: flex;
+        justify-content: center;
+    }
+    #output{
+        border: 2px solid black;
+        border-radius: 13px;
+        height: 100px;
+        width: 370px;
+        text-align: right;
+        font-size: 45px;
+    }
+    #btn{
+        display: flex;
+        justify-content: center;
+    }
+    table{
+        margin-top: 20px;
+    }
+    tbody tr td{
+        padding: 10px;
+        font-size: 35px;
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        border: 3px solid gray;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+    tbody tr th{
+        background-color: darkgray;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        font-size: 35px;
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        border: 3px solid gray;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+
+    tbody tr th:hover {
+        box-shadow: 1px 1px 9px gray;
+    }
+
+    tbody tr td:hover {
+        box-shadow: 1px 1px 5px grey;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1099px){
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    #title{
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    #title h1{
+        font-size: 50px;
+    }
+    #one{
+        display: flex;
+        justify-content: center;
+    }
+    #output{
+        border: 2px solid black;
+        border-radius: 13px;
+        height: 100px;
+        width: 370px;
+        text-align: right;
+        font-size: 45px;
+    }
+    #btn{
+        display: flex;
+        justify-content: center;
+    }
+    table{
+        margin-top: 20px;
+    }
+    tbody tr td{
+        padding: 10px;
+        font-size: 35px;
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        border: 3px solid gray;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+    tbody tr th{
+        background-color: darkgray;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        font-size: 35px;
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        border: 3px solid gray;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+
+    tbody tr th:hover {
+        box-shadow: 1px 1px 9px gray;
+    }
+
+    tbody tr td:hover {
+        box-shadow: 1px 1px 5px grey;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
