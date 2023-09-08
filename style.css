@@ -1,87 +1,81 @@
-
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    font-family: sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
 }
-#title{
-    display: flex;
-    justify-content: center;
+#title {
+  display: flex;
+  justify-content: center;
 }
-#title h1{
-    font-size: 50px;
+#title h1 {
+  font-size: 50px;
 }
-#one{
-    display: flex;
-    justify-content: center;
+#one {
+  display: flex;
+  justify-content: center;
 }
-input{
-    padding: 0 10px 0 10px;
+input {
+  padding: 0 10px 0 10px;
 }
-#output:focus{
-    outline: solid black;
-    border: none;
+#output:focus {
+  outline: solid black;
+  border: none;
 }
-#output{
-    border: 2px solid gray;
-    border-radius: 13px;
-    height: 100px;
-    width: 370px;
-    text-align: right;
-    font-size: 45px;
+#output {
+  border: 2px solid gray;
+  border-radius: 13px;
+  height: 100px;
+  width: 370px;
+  text-align: right;
+  font-size: 45px;
 }
-#btn{
-    display: flex;
-    justify-content: center;
+#btn {
+  display: flex;
+  justify-content: center;
 }
-table{
-    margin-top: 20px;
+table {
+  margin-top: 20px;
 }
-tbody tr td{
-    padding: 10px;
-    font-size: 35px;
-    text-align: center;
-    width: 70px;
-    height: 70px;
-    border: 3px solid gray;
-    border-radius: 11px;
-    cursor: pointer;
+tbody tr td {
+  padding: 10px;
+  font-size: 35px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border: 3px solid gray;
+  border-radius: 11px;
+  cursor: pointer;
 }
-tbody tr th{
-    background-color:gray ;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    font-size: 35px;
-    text-align: center;
-    width: 70px;
-    height: 70px;
-    border: 3px solid gray;
-    border-radius: 11px;
-    cursor: pointer;
+tbody tr th {
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 35px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border: 3px solid gray;
+  border-radius: 11px;
+  cursor: pointer;
 }
 
 tbody tr th:active {
-    box-shadow: 2px 2px 8px gray;
+  box-shadow: 2px 2px 8px gray;
 }
 
 tbody tr td:active {
-    box-shadow: 2px 2px 10px grey;
+  box-shadow: 2px 2px 10px grey;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
+footer {
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width: 800px){
-    #title{
-        display: flex;
-        justify-content: center;
-    }
-    #title h1{
-        font-size: 40px;
-        display: flex;
-        justify-content: center;
-    }
+@media (max-width: 800px) {
+  #title h1 {
+    font-size: 40px;
+    text-align: center;
+  }
 }
